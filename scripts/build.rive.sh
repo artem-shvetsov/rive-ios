@@ -341,11 +341,6 @@ build_all() {
     
     build_runtime $1
     build_runtime_sim $1
-    build_runtime_macosx $1
-    build_runtime_xros $1
-    build_runtime_xrsimulator $1
-    build_runtime_appletvos $1
-    build_runtime_appletvsimulator $1
 }
 
 case $1 in
